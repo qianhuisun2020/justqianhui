@@ -24,7 +24,11 @@ a:active {
 
 
 .main {
-    min-width: 25;
+    width: 100%;
+    min-width: 1030px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 

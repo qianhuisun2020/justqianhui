@@ -3,7 +3,6 @@ import { Document, Page } from 'react-pdf';
 import NavBar from '../Components/NavBar';
 
 import "./Resume.css"
-import resume from "../1.pdf"
 
 class Resume extends Component {
     
@@ -49,7 +48,7 @@ class Resume extends Component {
                     <div>
                         <div style={{ width: 600 }}>
                             <Document
-                                file="./1.pdf"
+                                file="./resume.pdf"
                                 onLoadSuccess={this.onDocumentLoadSuccess}
                             >
                             </Document>
