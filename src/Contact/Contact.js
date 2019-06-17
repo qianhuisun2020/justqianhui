@@ -48,7 +48,8 @@ class Contact extends Component {
                         <br/>
                         > &nbsp; ./professional 
                         <br/> 
-                        <a href="https://github.com/qianhuisun">GitHub</a> &nbsp; <a href="https://www.linkedin.com/in/qianhui-sun-65369816a/">LinkedIn</a>
+                        <a href="https://github.com/qianhuisun" target="_blank">GitHub</a> &nbsp; 
+                        <a href="https://www.linkedin.com/in/qianhui-sun-65369816a/" target="_blank">LinkedIn</a>
                         <br/>
                     </div>
                     <div className="text">

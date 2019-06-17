@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 import NavBar from '../Components/NavBar';
 
 import "./Home.css"
@@ -37,9 +38,9 @@ class Home extends Component {
                         Where would you like to go next?
                         <br/>
                         <ol>
-                            <li><a href="/portfolio">Portfolio</a></li>
-                            <li><a href="/resume">Resume</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><NavLink to='/portfolio'><a>Portfolio</a></NavLink></li>
+                            <li><NavLink to='/resume'><a>Resume</a></NavLink></li>
+                            <li><NavLink to='/contact'><a>Contact</a></NavLink></li>
                         </ol>
                     </div>
                     <div className="text"><br/>> &nbsp; ./portfolio</div>
@@ -50,12 +51,12 @@ class Home extends Component {
                         Click for more information.
                         <br/>
                         <ol>
-                            <li><a href="/portfolio/memento">Memento</a></li>
-                            <li><a href="/portfolio/forensic">Forensic -- Data Reduction</a></li>
-                            <li><a href="/portfolio/traffic">Traffic Sign Classification</a></li>
-                            <li><a href="/portfolio/skillconnect">SkillConnect</a></li>
-                            <li><a href="/portfolio/registration">Registration System</a></li>
-                            <li><a href="/portfolio/nao">Tic-Tac-Toe Robot</a></li>
+                            <li><NavLink to='/portfolio/memento'><a>Memento</a></NavLink></li>
+                            <li><NavLink to='/portfolio/forensic'><a>Forensic -- Data Reduction</a></NavLink></li>
+                            <li><NavLink to='/portfolio/traffic'><a>Traffic Sign Classification</a></NavLink></li>
+                            <li><NavLink to='/portfolio/skillconnect'><a>SkillConnect</a></NavLink></li>
+                            <li><NavLink to='/portfolio/registration'><a>Registration System</a></NavLink></li>
+                            <li><NavLink to='/portfolio/nao'><a>Tic-Tac-Toe Robot</a></NavLink></li>
                         </ol>
                     </div>
                     <div className="text">

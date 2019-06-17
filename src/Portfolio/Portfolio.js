@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 import YouTube from 'react-youtube';
 import NavBar from '../Components/NavBar';
 
@@ -49,7 +50,7 @@ class Portfolio extends Component {
                     </div>
                     <YouTube videoId="CE1G44WU3Rc" opts={opts} onReady={this._onReady} />
                     <div className="text">
-                        <a href="/portfolio/memento">Click to Learn more</a>
+                        <NavLink to='/portfolio/memento'><a>Click to Learn more</a></NavLink>
                     </div>
                     <div className="text">
                         <br/>
@@ -61,7 +62,7 @@ class Portfolio extends Component {
                         <br/>
                     </div>
                     <div className="text">
-                        <a href="/portfolio/forensic">Click to Learn more</a>
+                        <NavLink to='/portfolio/forensic'><a>Click to Learn more</a></NavLink>
                     </div>
                     <div className="text">
                         <br/>
@@ -73,7 +74,7 @@ class Portfolio extends Component {
                         <br/>
                     </div>
                     <div className="text">
-                        <a href="/portfolio/traffic">Click to Learn more</a>
+                        <NavLink to='/portfolio/traffic'><a>Click to Learn more</a></NavLink>
                     </div>
                     <div className="text">
                         <br/>
@@ -85,7 +86,7 @@ class Portfolio extends Component {
                         <br/>
                     </div>
                     <div className="text">
-                        <a href="/portfolio/skillconnect">Click to Learn more</a>
+                        <NavLink to='/portfolio/skillconnect'><a>Click to Learn more</a></NavLink>
                     </div>
                     <div className="text">
                         <br/>
@@ -97,7 +98,7 @@ class Portfolio extends Component {
                         <br/>
                     </div>
                     <div className="text">
-                        <a href="/portfolio/registration">Click to Learn more</a>
+                        <NavLink to='/portfolio/registration'><a>Click to Learn more</a></NavLink>
                     </div>
                     <div className="text">
                         <br/>
@@ -110,7 +111,7 @@ class Portfolio extends Component {
                     </div>
                     <YouTube videoId="JbTF1fEWtpY" opts={opts} onReady={this._onReady} />
                     <div className="text">
-                        <a href="/portfolio/nao">Click to Learn more</a>
+                        <NavLink to='/portfolio/nao'><a>Click to Learn more</a></NavLink>
                     </div>
                     <div className="text">
                         <br/>
