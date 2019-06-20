@@ -42,15 +42,15 @@ class SkillConnect extends Component {
                     <div className="text">
                         <br/>
                         > &nbsp; ./SkillConnect
-                        <br/> 
+                    </div>
+                    <div className="text">
                         SkillConnect is a web application (frontend design) designed for teaching and learning.
                         <br/>
                         Images:
-                        <br/>
-                        <Zmage src="../SkillConnect_1.jpg" width="720px" alt="SkillConnect_1.jpg" />
-                        <Zmage src="../SkillConnect_2.jpg" width="720px" alt="SkillConnect_2.jpg" />
-                        <Zmage src="../SkillConnect_3.jpg" width="720px" alt="SkillConnect_3.jpg" />
                     </div>
+                    <Zmage src="../SkillConnect_1.jpg" width="720px" alt="SkillConnect_1.jpg" />
+                    <Zmage src="../SkillConnect_2.jpg" width="720px" alt="SkillConnect_2.jpg" />
+                    <Zmage src="../SkillConnect_3.jpg" width="720px" alt="SkillConnect_3.jpg" />
                     <div className="text">
                         <br/>
                         > &nbsp; <a style={{opacity}}>|</a> 

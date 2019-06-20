@@ -41,11 +41,11 @@ class Memento extends Component {
                     <div className="text">
                         <br/>
                         > &nbsp; ./Memento
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Memento is a wearable reminder based on facial recognition.
                         <br/>
                         video:
-                        <br/>
                     </div>
                     <YouTube videoId="CE1G44WU3Rc" opts={opts} onReady={this._onReady} />
                     <div className="text">

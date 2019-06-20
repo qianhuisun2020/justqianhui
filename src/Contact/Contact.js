@@ -30,42 +30,48 @@ class Contact extends Component {
                 <NavBar logo={false}/>
                 <div className="ContactContainer">
                     <h1>Contact Info</h1>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./email
-                        <br/>
-                        <a href="mailto:qianhuisun2020@gmail.com">qianhuisun2020@gmail.com</a>
-                        <br/>
                     </div>
+                    <div className="text">
+                        <a href="mailto:qianhuisun2020@gmail.com">qianhuisun2020@gmail.com</a>
+                    </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./phone 
-                        <br/> 
-                        (872) 302-9298 
-                        <br/>
                     </div>
+                    <div className="text">
+                        (872) 302-9298
+                    </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./wechat
-                        <br/> 
-                        sun18516291197
-                        <br/>
                     </div>
+                    <div className="text">
+                        sun18516291197
+                    </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./facebook
-                        <br/> 
-                        <a href="https://www.facebook.com/Qianhui1996" target="_blank">Facebook</a>
-                        <br/>
                     </div>
+                    <div className="text">
+                        <a href="https://www.facebook.com/Qianhui1996" target="_blank">Facebook</a>
+                    </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./professional 
-                        <br/> 
+                    </div>
+                    <div className="text">
                         <a href="https://github.com/qianhuisun" target="_blank">GitHub</a> &nbsp; 
                         <a href="https://www.linkedin.com/in/qianhui-sun-65369816a/" target="_blank">LinkedIn</a>
-                        <br/>
                     </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; <a style={{opacity}}>|</a> 

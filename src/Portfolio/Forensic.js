@@ -41,11 +41,11 @@ class Forensic extends Component {
                     <div className="text">
                         <br/>
                         > &nbsp; ./Forensic
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Forensic is project in which we implemente algorithms that reduces system-level data and preserves event chains.
                         <br/>
                         Images:
-                        <br/>
                     </div>
                     <div>Images coming soon.</div>
                     <div className="text">

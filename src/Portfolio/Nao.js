@@ -41,11 +41,11 @@ class Nao extends Component {
                     <div className="text">
                         <br/>
                         > &nbsp; ./Tic-Tac-Teo Robot
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Tic-Tac-Teo Robot is a robot that plays Tic-Tac-Toe on a real chessboard.
                         <br/>
                         video:
-                        <br/>
                     </div>
                     <YouTube videoId="JbTF1fEWtpY" opts={opts} onReady={this._onReady} />
                     <div className="text">

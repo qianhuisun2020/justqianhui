@@ -40,81 +40,88 @@ class Portfolio extends Component {
                 <NavBar logo={false}/>
                 <div className="PortfolioContainer">
                     <h1>Portfolio</h1>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./Memento
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Memento is a wearable reminder based on facial recognition.
                         <br/>
                         Demo video:
-                        <br/>
                     </div>
                     <YouTube videoId="CE1G44WU3Rc" opts={opts} onReady={this._onReady} />
                     <div className="text">
                         <NavLink to='/portfolio/memento'><a>Click to Learn more</a></NavLink>
                     </div>
+                    
                     <div className="text">
                         <br/>
                         > &nbsp; ./Forensic
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Forensic is project in which we implemente algorithms that reduces system-level data and preserves event chains.
                         <br/>
                         Demo image:
-                        <br/>
                     </div>
                     <div className="text">
                         <NavLink to='/portfolio/forensic'><a>Click to Learn more</a></NavLink>
                     </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./Traffic Sign Classification
-                        <br/> 
+                    </div>
+                    <div className="text">
                         A project in which I implemented several neural network structures that recognize traffic signs.
                         <br/>
                         Demo image:
-                        <br/>
                     </div>
                     <div className="text">
                         <NavLink to='/portfolio/traffic'><a>Click to Learn more</a></NavLink>
                     </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./SkillConnect
-                        <br/> 
+                    </div>
+                    <div className="text">]
                         SkillConnect is a web application (frontend design) designed for teaching and learning.
                         <br/>
                         Demo image:
-                        <br/>
-                        <Zmage src="SkillConnect_1.jpg" width="720px" alt="SkillConnect_1.jpg" />
                     </div>
+                    <Zmage src="SkillConnect_1.jpg" width="720px" alt="SkillConnect_1.jpg" />
                     <div className="text">
                         <NavLink to='/portfolio/skillconnect'><a>Click to Learn more</a></NavLink>
                     </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./Registration System
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Registration System is a system that generates 3D images of objects and registers them to the robot coordination.
                         <br/>
                         Demo image:
-                        <br/>
                     </div>
                     <div className="text">
                         <NavLink to='/portfolio/registration'><a>Click to Learn more</a></NavLink>
                     </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; ./Tic-Tac-Teo Robot
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Tic-Tac-Teo Robot is a robot that plays Tic-Tac-Toe on a real chessboard.
                         <br/>
                         Demo video:
-                        <br/>
                     </div>
                     <YouTube videoId="JbTF1fEWtpY" opts={opts} onReady={this._onReady} />
                     <div className="text">
                         <NavLink to='/portfolio/nao'><a>Click to Learn more</a></NavLink>
                     </div>
+
                     <div className="text">
                         <br/>
                         > &nbsp; <a style={{opacity}}>|</a> 

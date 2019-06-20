@@ -41,11 +41,11 @@ class Registration extends Component {
                     <div className="text">
                         <br/>
                         > &nbsp; ./Registration System
-                        <br/> 
+                    </div>
+                    <div className="text">
                         Registration System is a system that generates 3D images of objects and registers them to the robot coordination.
                         <br/>
                         Images:
-                        <br/>
                     </div>
                     <div>Images coming soon.</div>
                     <div className="text">

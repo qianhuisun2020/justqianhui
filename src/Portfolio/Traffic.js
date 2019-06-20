@@ -41,11 +41,11 @@ class Traffic extends Component {
                     <div className="text">
                         <br/>
                         > &nbsp; ./Traffic Sign Classification
-                        <br/> 
+                    </div>
+                    <div className="text">
                         A project in which I implemented several neural network structures that recognize traffic signs.
                         <br/>
                         Images:
-                        <br/>
                     </div>
                     <div>Images coming soon.</div>
                     <div className="text">
