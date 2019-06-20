@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import YouTube from 'react-youtube';
+import Zmage from 'react-zmage';
 import NavBar from '../Components/NavBar';
 
 import "./Portfolio.css"
@@ -46,8 +47,10 @@ class SkillConnect extends Component {
                         <br/>
                         Images:
                         <br/>
+                        <Zmage src="../SkillConnect_1.jpg" width="720px" alt="SkillConnect_1.jpg" />
+                        <Zmage src="../SkillConnect_2.jpg" width="720px" alt="SkillConnect_2.jpg" />
+                        <Zmage src="../SkillConnect_3.jpg" width="720px" alt="SkillConnect_3.jpg" />
                     </div>
-                    <div>Images coming soon.</div>
                     <div className="text">
                         <br/>
                         > &nbsp; <a style={{opacity}}>|</a> 

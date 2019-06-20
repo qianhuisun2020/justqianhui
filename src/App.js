@@ -10,7 +10,6 @@ import Registration from './Portfolio/Registration'
 import Nao from './Portfolio/Nao';
 import Resume from './Resume/Resume';
 import Contact from './Contact/Contact';
-import Test from './Test';
 import './App.css';
 
 
@@ -33,7 +32,6 @@ class App extends Component {
                   <Route exact path = '/portfolio/nao' component={Nao}/>
                   <Route exact path = '/resume' component={Resume} />
                   <Route exact path = '/contact' component={Contact} />
-                  <Route exact path = '/test' component={Test} />
               </Switch>
           </div>
           </BrowserRouter>

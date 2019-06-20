@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
+import PDF from 'react-pdf-js';
 import NavBar from '../Components/NavBar';
 
 import "./Resume.css"
@@ -42,17 +43,20 @@ class Resume extends Component {
                     <h1>Resume</h1>
                     <div className="text">
                         <br/>
-                        > &nbsp; ./resume
+                        > &nbsp; evince resume.pdf
                         <br/>
                     </div>
                     <div>
                         <div style={{ width: 600 }}>
-                            <Document
-                                file="./resume.pdf"
-                                onLoadSuccess={this.onDocumentLoadSuccess}
-                            >
-                            </Document>
+                            <PDF
+                                file="./Resume-Qianhui_Sun.pdf"
+                            />
                         </div>
+                    </div>
+                    <div className="text">
+                        <br/>
+                        > &nbsp; <a href="/Resume-Qianhui_Sun.pdf" download>download resume.pdf</a>
+                        <br/>
                     </div>
                     <div className="text">
                         <br/>

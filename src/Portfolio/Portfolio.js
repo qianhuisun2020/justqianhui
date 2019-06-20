@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
 import YouTube from 'react-youtube';
+import Zmage from 'react-zmage';
 import NavBar from '../Components/NavBar';
 
 import "./Portfolio.css"
@@ -45,7 +46,7 @@ class Portfolio extends Component {
                         <br/> 
                         Memento is a wearable reminder based on facial recognition.
                         <br/>
-                        video:
+                        Demo video:
                         <br/>
                     </div>
                     <YouTube videoId="CE1G44WU3Rc" opts={opts} onReady={this._onReady} />
@@ -58,7 +59,7 @@ class Portfolio extends Component {
                         <br/> 
                         Forensic is project in which we implemente algorithms that reduces system-level data and preserves event chains.
                         <br/>
-                        image:
+                        Demo image:
                         <br/>
                     </div>
                     <div className="text">
@@ -70,7 +71,7 @@ class Portfolio extends Component {
                         <br/> 
                         A project in which I implemented several neural network structures that recognize traffic signs.
                         <br/>
-                        images:
+                        Demo image:
                         <br/>
                     </div>
                     <div className="text">
@@ -82,8 +83,9 @@ class Portfolio extends Component {
                         <br/> 
                         SkillConnect is a web application (frontend design) designed for teaching and learning.
                         <br/>
-                        image:
+                        Demo image:
                         <br/>
+                        <Zmage src="SkillConnect_1.jpg" width="720px" alt="SkillConnect_1.jpg" />
                     </div>
                     <div className="text">
                         <NavLink to='/portfolio/skillconnect'><a>Click to Learn more</a></NavLink>
@@ -94,7 +96,7 @@ class Portfolio extends Component {
                         <br/> 
                         Registration System is a system that generates 3D images of objects and registers them to the robot coordination.
                         <br/>
-                        image:
+                        Demo image:
                         <br/>
                     </div>
                     <div className="text">
@@ -106,7 +108,7 @@ class Portfolio extends Component {
                         <br/> 
                         Tic-Tac-Teo Robot is a robot that plays Tic-Tac-Toe on a real chessboard.
                         <br/>
-                        video:
+                        Demo video:
                         <br/>
                     </div>
                     <YouTube videoId="JbTF1fEWtpY" opts={opts} onReady={this._onReady} />
@@ -125,7 +127,7 @@ class Portfolio extends Component {
 
     _onReady(event) {
         // access to player in all event handlers via event.target
-        event.target.pauseVideo();
+        event.target.stopVideo();
     }
 }
 

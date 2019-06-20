@@ -32,4 +32,6 @@ a:active {
     overflow-x: hidden; 
 }
 
-
+.text {
+    margin-bottom: 10px;
+}
