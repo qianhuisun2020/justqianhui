@@ -37,7 +37,7 @@ class Memento extends Component {
                 <NavBar logo={true}/>
                 <NavBar logo={false}/>
                 <div className="PortfolioContainer">
-                    <h1>Portfolio/Memento</h1>
+                    <h1>Memento</h1>
                     <div className="text">
                         <br/>
                         > &nbsp; ./Memento

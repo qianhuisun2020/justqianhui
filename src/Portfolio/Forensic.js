@@ -37,7 +37,7 @@ class Forensic extends Component {
                 <NavBar logo={true}/>
                 <NavBar logo={false}/>
                 <div className="PortfolioContainer">
-                    <h1>Portfolio/Forensic -- Data Reduction</h1>
+                    <h1>Forensic -- Data Reduction</h1>
                     <div className="text">
                         <br/>
                         > &nbsp; ./Forensic

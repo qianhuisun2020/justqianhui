@@ -38,7 +38,7 @@ class SkillConnect extends Component {
                 <NavBar logo={true}/>
                 <NavBar logo={false}/>
                 <div className="PortfolioContainer">
-                    <h1>Portfolio/SkillConnect</h1>
+                    <h1>SkillConnect</h1>
                     <div className="text">
                         <br/>
                         > &nbsp; ./SkillConnect

@@ -37,7 +37,7 @@ class Nao extends Component {
                 <NavBar logo={true}/>
                 <NavBar logo={false}/>
                 <div className="PortfolioContainer">
-                    <h1>Portfolio/Nao</h1>
+                    <h1>Tic-Tac-Teo Robot</h1>
                     <div className="text">
                         <br/>
                         > &nbsp; ./Tic-Tac-Teo Robot

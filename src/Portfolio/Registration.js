@@ -37,7 +37,7 @@ class Registration extends Component {
                 <NavBar logo={true}/>
                 <NavBar logo={false}/>
                 <div className="PortfolioContainer">
-                    <h1>Portfolio/Registration System</h1>
+                    <h1>Registration System</h1>
                     <div className="text">
                         <br/>
                         > &nbsp; ./Registration System

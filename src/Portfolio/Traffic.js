@@ -37,7 +37,7 @@ class Traffic extends Component {
                 <NavBar logo={true}/>
                 <NavBar logo={false}/>
                 <div className="PortfolioContainer">
-                    <h1>Portfolio/Traffic Sign Classification</h1>
+                    <h1>Traffic Sign Classification</h1>
                     <div className="text">
                         <br/>
                         > &nbsp; ./Traffic Sign Classification
